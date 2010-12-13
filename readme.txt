@@ -1,0 +1,62 @@
+=== 3b Meteo ===
+Contributors: andreapernici
+Tags: meteo, meteo italia, previsioni del tempo, meteo sul sito, previsioni meteo, 3b meteo
+Requires at least: 2.6
+Tested up to: 3.0.3
+stable tag: 1.0.0
+
+Permette di aggiungere i widget meteo per le previsioni del tempo sul tuo sito in vari formati. I widget sono personalizzabili nei colori e possono essere inseriti nei post, nelle pagine e nelle sidebar.
+
+
+== Description ==
+Permette di aggiungere i widget meteo per le previsioni del tempo sul tuo sito in vari formati. I widget sono personalizzabili nei colori e possono essere inseriti nei post, nelle pagine e nelle sidebar.
+
+Maggiori informazioni:
+
+* Più informazioni su [3b Meteo](http://www.andreapernici.com/wordpress/3b-meteo/), dove è possibile vedere l'evoluzione del plugin e lo sviluppo.
+* Dati [meteo italia](http://www.3bmeteo.com/) forniti da 3b Meteo.
+
+**Changelog**
+
+= 1.0.0 = 
+* Shortcodes e Widget
+* Località Compatti 1 giorno
+* Località Compatti 6 giorno
+* Località Compatti 7 giorno
+* Località Dati in Diretta
+* Tutte le Località
+* Località estese 7 giorni
+* Località estese orario
+* Regionali compatto
+* Regionali 7 giorni
+* Località Marine 1 giorno
+* Località Marine 7 giorno
+* Regionali Marine 7 giorni
+* Neve 1 giorno
+* Neve 7 giorni
+
+
+== Installazione ==
+
+Download, Aggiornamento, Installazione:
+
+**Aggiornamento**
+
+1. Automaticamente dal pannello wordpress
+2. Inviando i file sovrascrivendo i precedenti
+
+**Installazione**
+
+1. Decomprimere il file `3bmeteo.zip`. 
+2. Inviare la cartella `3bmeteo` (non solo i file in essa) nella cartella `wp-contents/plugins`.
+
+**Attivazione**
+
+1. Nel pannello di amministrazione WordPress andare nella pagina dei Plugin
+2. Attivare 3b Meteo plugin e apparirà una sottopagina nel menu impostazioni oltre ad un widget nella sezioni Widget.
+
+Se trovate dei bug o avete qualche idea, scriveteci.
+
+**Utenti Avanzati**
+
+Per un uso avanzato del plugin potete visitare la pagina di [3bmeteo](http://www.andreapernici.com/wordpress/3b-meteo/) sul sito di [Andrea](http://www.andreapernici.com/)
