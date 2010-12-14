@@ -3,7 +3,7 @@ Contributors: andreapernici
 Tags: meteo, meteo italia, previsioni del tempo, meteo sul sito, previsioni meteo, 3b meteo
 Requires at least: 2.6
 Tested up to: 3.0.3
-stable tag: 1.0.0
+stable tag: 1.0.1
 
 Permette di aggiungere i widget meteo per le previsioni del tempo sul tuo sito in vari formati. I widget sono personalizzabili nei colori e possono essere inseriti nei post, nelle pagine e nelle sidebar.
 
@@ -17,6 +17,10 @@ Maggiori informazioni:
 * Dati [meteo italia](http://www.3bmeteo.com/) forniti da 3b Meteo.
 
 **Changelog**
+
+
+= 1.0.1 = 
+* Bug fix
 
 = 1.0.0 = 
 * Shortcodes e Widget
