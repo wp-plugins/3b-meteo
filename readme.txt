@@ -13,7 +13,7 @@ Permette di aggiungere i widget meteo per le previsioni del tempo sul tuo sito i
 
 Maggiori informazioni:
 
-* Più informazioni su [3b Meteo](http://www.andreapernici.com/wordpress/3b-meteo/), dove è possibile vedere l'evoluzione del plugin e lo sviluppo.
+* Piu' informazioni sul [Plugin 3b Meteo](http://www.andreapernici.com/wordpress/3b-meteo/), dove e' possibile vedere l'evoluzione del plugin e lo sviluppo.
 * Dati [meteo italia](http://www.3bmeteo.com/) forniti da 3b Meteo.
 
 **Changelog**
@@ -24,17 +24,17 @@ Maggiori informazioni:
 
 = 1.0.0 = 
 * Shortcodes e Widget
-* Località Compatti 1 giorno
-* Località Compatti 6 giorno
-* Località Compatti 7 giorno
-* Località Dati in Diretta
+* Localita' Compatti 1 giorno
+* Localita' Compatti 6 giorno
+* Localita' Compatti 7 giorno
+* Localita' Dati in Diretta
 * Tutte le Località
-* Località estese 7 giorni
-* Località estese orario
+* Localita' estese 7 giorni
+* Localita' estese orario
 * Regionali compatto
 * Regionali 7 giorni
-* Località Marine 1 giorno
-* Località Marine 7 giorno
+* Localita' Marine 1 giorno
+* Localita' Marine 7 giorno
 * Regionali Marine 7 giorni
 * Neve 1 giorno
 * Neve 7 giorni
@@ -63,4 +63,4 @@ Se trovate dei bug o avete qualche idea, scriveteci.
 
 **Utenti Avanzati**
 
-Per un uso avanzato del plugin potete visitare la pagina di [3bmeteo](http://www.andreapernici.com/wordpress/3b-meteo/) sul sito di [Andrea](http://www.andreapernici.com/)
+Per un uso avanzato del plugin potete visitare la pagina del [plugin 3bmeteo](http://www.andreapernici.com/wordpress/3b-meteo/) sul sito di [Andrea](http://www.andreapernici.com/)
