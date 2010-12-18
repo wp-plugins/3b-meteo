@@ -3,7 +3,7 @@
 	Plugin Name: 3B Meteo
 	Plugin URI: http://andreapernici.com/wordpress/3bmeteo/
 	Description: Allow You to add Meteo Widget to Your website.
-	Version: 1.0.1
+	Version: 1.0.2
 	Author: Andrea Pernici
 	Author URI: http://www.andreapernici.com/
 	
@@ -28,7 +28,7 @@ define('TREBIMETEO_URL', plugin_dir_url(__FILE__));
 define('TREBIMETEO_PATH', plugin_dir_path(__FILE__));
 define('TREBIMETEO_BASENAME', plugin_basename( __FILE__ ));
 
-define('TREBIMETEO_VERSION', '1.0.1');
+define('TREBIMETEO_VERSION', '1.0.2');
 
 function trebi_getUrlRegione($idreg)
 {
@@ -162,8 +162,8 @@ if (!class_exists("TreBiMeteo")) {
 			$trebibuno = urlencode($options['trebibuno']);
 			$trebibdue = urlencode($options['trebibdue']);
 			$trebibtre = urlencode($options['trebibtre']);
-			$trebiwidth = urlencode($options['trebiwidth']);
-			$trebiheight = urlencode($options['trebiheight']);
+			$trebilarghezza = urlencode($options['trebilarghezza']);
+			$trebialtezza = urlencode($options['trebialtezza']);
 			$trebitipo = urlencode($options['trebitipo']);
 			
 			$before_widget='<div class="textwidget">';
@@ -231,7 +231,7 @@ if (!class_exists("TreBiMeteo")) {
 		function WidgetMeteoControl() {
 		
 			$options = get_option('widget_trebimeteo');
-			if ( !is_array($options) )	{ $options = array('title' => 'Previsioni Meteo', 'trebiregione' => '1', 'trebilocalita' => '6', 'trebicuno' => 'ffffff','trebicdue' => 'ffffff', 'trebictre' => 'ffffff', 'trebibuno' => '93c1db', 'trebibdue' => '3a8ebd', 'trebibtre' => 'ffffff', 'trebiwidth' => '190', 'trebiheight' => '240', 'trebitipo' => 'xssmall'); }
+			if ( !is_array($options) )	{ $options = array('title' => 'Previsioni Meteo', 'trebiregione' => '1', 'trebilocalita' => '6', 'trebicuno' => 'ffffff','trebicdue' => 'ffffff', 'trebictre' => 'ffffff', 'trebibuno' => '93c1db', 'trebibdue' => '3a8ebd', 'trebibtre' => 'ffffff', 'trebilarghezza' => '190', 'trebialtezza' => '240', 'trebitipo' => 'xssmall'); }
 
 			if ( $_POST['trebimeteo-submit'] )
 			{
