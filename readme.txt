@@ -2,8 +2,8 @@
 Contributors: andreapernici
 Tags: meteo, meteo italia, previsioni del tempo, meteo sul sito, previsioni meteo, 3b meteo
 Requires at least: 2.6
-Tested up to: 3.0.3
-stable tag: 1.0.3
+Tested up to: 3.0.5
+stable tag: 1.0.4
 
 Permette di aggiungere i widget meteo per le previsioni del tempo sul tuo sito in vari formati.
 
@@ -16,8 +16,12 @@ Maggiori informazioni:
 * Piu' informazioni sul [Plugin 3b Meteo](http://www.andreapernici.com/wordpress/3b-meteo/), dove e' possibile vedere l'evoluzione del plugin e lo sviluppo.
 * Dati [meteo italia](http://www.3bmeteo.com/) forniti da 3b Meteo.
 * Applicazone [meteo umore](http://apps.facebook.com/meteome) su Facebook.
+* Applicazione Facebook [social meteo](http://social.3bmeteo.com).
 
 **Changelog**
+
+= 1.0.4 =
+* Corretto Bug URL su widget regioni
 
 = 1.0.3 = 
 * Corretto Bug su widget 1
@@ -34,7 +38,7 @@ Maggiori informazioni:
 * Localita' Compatti 6 giorno
 * Localita' Compatti 7 giorno
 * Localita' Dati in Diretta
-* Tutte le Località
+* Tutte le Localita'
 * Localita' estese 7 giorni
 * Localita' estese orario
 * Regionali compatto

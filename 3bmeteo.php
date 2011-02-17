@@ -3,7 +3,7 @@
 	Plugin Name: 3B Meteo
 	Plugin URI: http://andreapernici.com/wordpress/3bmeteo/
 	Description: Allow You to add Meteo Widget to Your website.
-	Version: 1.0.3
+	Version: 1.0.4
 	Author: Andrea Pernici
 	Author URI: http://www.andreapernici.com/
 	
@@ -28,7 +28,7 @@ define('TREBIMETEO_URL', plugin_dir_url(__FILE__));
 define('TREBIMETEO_PATH', plugin_dir_path(__FILE__));
 define('TREBIMETEO_BASENAME', plugin_basename( __FILE__ ));
 
-define('TREBIMETEO_VERSION', '1.0.3');
+define('TREBIMETEO_VERSION', '1.0.4');
 
 function trebi_getUrlRegione($idreg)
 {
@@ -42,22 +42,21 @@ function trebi_getUrlRegione($idreg)
 		case 4: $urlret = 'Campania'; $uriret = 'campania'; break;
 		case 5: $urlret = 'Emilia'; $uriret = 'emilia'; break;
 		case 6: $urlret = 'Friuli'; $uriret = 'friuli'; break;
-		case 7: $urlret = 'Veneto'; $uriret = 'veneto'; break;
-		case 8: $urlret = 'Lazio'; $uriret = 'lazio'; break;
-		case 9: $urlret = 'Liguria'; $uriret = 'liguria'; break;
-		case 10: $urlret = 'Lombardia'; $uriret = 'lombardia'; break;
-		case 11: $urlret = 'Marche'; $uriret = 'marche'; break;
-		case 12: $urlret = 'Molise'; $uriret = 'molise'; break;
-		case 13: $urlret = 'Piemonte'; $uriret = 'piemonte'; break;
-		case 14: $urlret = 'Puglia'; $uriret = 'puglia'; break;
-		case 15: $urlret = 'Sardegna'; $uriret = 'sardegna'; break;
-		case 16: $urlret = 'Sicilia'; $uriret = 'sicilia'; break;
-		case 17: $urlret = 'Toscana'; $uriret = 'toscana'; break;
-		case 18: $urlret = 'Trentino'; $uriret = 'trentino'; break;
-		case 19: $urlret = 'Umbria'; $uriret = 'umbria'; break;
-		case 20: $urlret = 'Valle d\'aosta'; $uriret = 'valle%20aosta'; break;
-		case 21: $urlret = 'Veneto'; $uriret = 'veneto'; break;
-		}
+		case 7: $urlret = 'Lazio'; $uriret = 'lazio'; break;
+		case 8: $urlret = 'Liguria'; $uriret = 'liguria'; break;
+		case 9: $urlret = 'Lombardia'; $uriret = 'lombardia'; break;
+		case 10: $urlret = 'Marche'; $uriret = 'marche'; break;
+		case 11: $urlret = 'Molise'; $uriret = 'molise'; break;
+		case 12: $urlret = 'Piemonte'; $uriret = 'piemonte'; break;
+		case 13: $urlret = 'Puglia'; $uriret = 'puglia'; break;
+		case 14: $urlret = 'Sardegna'; $uriret = 'sardegna'; break;
+		case 15: $urlret = 'Sicilia'; $uriret = 'sicilia'; break;
+		case 16: $urlret = 'Toscana'; $uriret = 'toscana'; break;
+		case 17: $urlret = 'Trentino'; $uriret = 'trentino'; break;
+		case 18: $urlret = 'Umbria'; $uriret = 'umbria'; break;
+		case 19: $urlret = 'Valle d\'aosta'; $uriret = 'valle%20aosta'; break;
+		case 20: $urlret = 'Veneto'; $uriret = 'veneto'; break;
+        }
 	$return = '<br/><a href="http://www.3bmeteo.com/meteo/'.$uriret.'" style="font-size:10px;">Previsioni Meteo '.$urlret.'</a>';
 	return $return;
 }
