@@ -3,7 +3,7 @@
 	Plugin Name: 3B Meteo
 	Plugin URI: http://andreapernici.com/wordpress/3bmeteo/
 	Description: Allow You to add Meteo Widget to Your website.
-	Version: 1.0.5
+	Version: 1.0.6
 	Author: Andrea Pernici
 	Author URI: http://www.andreapernici.com/
 	
@@ -28,7 +28,7 @@ define('TREBIMETEO_URL', plugin_dir_url(__FILE__));
 define('TREBIMETEO_PATH', plugin_dir_path(__FILE__));
 define('TREBIMETEO_BASENAME', plugin_basename( __FILE__ ));
 
-define('TREBIMETEO_VERSION', '1.0.5');
+define('TREBIMETEO_VERSION', '1.0.6');
 
 function trebi_getUrlRegione($idreg)
 {
@@ -765,7 +765,7 @@ $("#slidingDiv"+valore).animate({"height": "toggle"}, { duration: 1000 });
 <!-- regione compatto -->
 <!-- regione 7 giorni -->
 <p><b>7 giorni</b>: Previsioni della settimana nella tua regione, in formato esteso. <b>SC = [trebi-d2]</b>. <a onclick="ShowHide(9); return false;" href="#">Mostra/Nascondi</a></p>
-<div id='slidingDiv9' style="display: none;"><iframe src="http://www.3bmeteo.com//3bm_meteo.php?idreg=1&tm=msmacro&c1=FFFFFF&c2=555555&c3=93C1DB&b1=93C1DB&b2=3A8EBD" width="660" height="542" frameborder="0"></iframe></div>
+<div id='slidingDiv9' style="display: none;"><iframe src="http://portali.3bmeteo.com//3bm_meteo.php?idreg=1&tm=msmacro&c1=FFFFFF&c2=555555&c3=93C1DB&b1=93C1DB&b2=3A8EBD" width="660" height="542" frameborder="0"></iframe></div>
 <!-- regione 7 giorni -->
 </div>
 </div> 
@@ -780,11 +780,11 @@ $("#slidingDiv"+valore).animate({"height": "toggle"}, { duration: 1000 });
 <div style="border-color:#CEE1EF; border-style:solid; border-width:2px; min-height:10em; margin:5px 0px 5px 10px; overflow:auto; padding:0.5em 0.5em;"> 
 <!-- 1 giorno -->
 <p><b>1 giorno</b>: Previsioni marine del giorno in corso nella tua localit&agrave;, in formato compatto. <b>SC = [trebi-e1]</b>. <a onclick="ShowHide(10); return false;" href="#">Mostra/Nascondi</a></p>
-<div id='slidingDiv10' style="display: none;"><iframe src="http://www.3bmeteo.com//3bm_meteo.php?loc=6&tm=lsmari&c1=ffffff&b1=93c1db&b2=3a8ebd" width="190" height="260" frameborder="0"></iframe></div>
+<div id='slidingDiv10' style="display: none;"><iframe src="http://portali.3bmeteo.com//3bm_meteo.php?loc=6&tm=lsmari&c1=ffffff&b1=93c1db&b2=3a8ebd" width="190" height="260" frameborder="0"></iframe></div>
 <!-- 1 giorno -->
 <!-- 7 giorno -->
 <p><b>7 giorni</b>: Previsioni marine della settimana nella tua localit&agrave, in formato esteso. <b>SC = [trebi-e2]</b>. <a onclick="ShowHide(11); return false;" href="#">Mostra/Nascondi</a></p>
-<div id='slidingDiv11' style="display: none;"><iframe src="http://www.3bmeteo.com//3bm_meteo.php?loc=6&tm=lmari&c1=FFFFFF&c3=93C1DB&b1=93C1DB&b2=3A8EBD" width="460" height="390" frameborder="0"></iframe></div>
+<div id='slidingDiv11' style="display: none;"><iframe src="http://portali.3bmeteo.com//3bm_meteo.php?loc=6&tm=lmari&c1=FFFFFF&c3=93C1DB&b1=93C1DB&b2=3A8EBD" width="460" height="390" frameborder="0"></iframe></div>
 <!-- 7 giorno -->
 </div>
 </div> 
@@ -798,7 +798,7 @@ $("#slidingDiv"+valore).animate({"height": "toggle"}, { duration: 1000 });
 <p>Ti consente di visualizzare le previsioni marine per la tua regione.</p>
 <div style="border-color:#CEE1EF; border-style:solid; border-width:2px; min-height:10em; margin:5px 0px 5px 10px; overflow:auto; padding:0.5em 0.5em;"> 
 <p><b>7 giorni</b>: Previsioni marine della settimana nella tua regione, in formato esteso. <b>SC = [trebi-f1]</b>. <a onclick="ShowHide(12); return false;" href="#">Mostra/Nascondi</a></p>
-<div id='slidingDiv12' style="display: none;"><iframe src="http://www.3bmeteo.com//3bm_meteo.php?idreg=1&tm=mmari&c1=FFFFFF&c2=555555&c3=93C1DB&b1=93C1DB&b2=3A8EBD" width="650" height="515" frameborder="0"></iframe></div>
+<div id='slidingDiv12' style="display: none;"><iframe src="http://portali.3bmeteo.com//3bm_meteo.php?idreg=1&tm=mmari&c1=FFFFFF&c2=555555&c3=93C1DB&b1=93C1DB&b2=3A8EBD" width="650" height="515" frameborder="0"></iframe></div>
 </div>
 </div> 
 </div> 
@@ -812,11 +812,11 @@ $("#slidingDiv"+valore).animate({"height": "toggle"}, { duration: 1000 });
 <div style="border-color:#CEE1EF; border-style:solid; border-width:2px; min-height:10em; margin:5px 0px 5px 10px; overflow:auto; padding:0.5em 0.5em;"> 
 <!-- 1 giorni --> 
 <p><b>1 giorno</b>: Bollettino neve del giorno in corso nella tua localit&agrave, in formato compatto. <b>SC = [trebi-g1]</b>. <a onclick="ShowHide(13); return false;" href="#">Mostra/Nascondi</a></p>
-<div id='slidingDiv13' style="display: none;"><iframe src="http://www.3bmeteo.com//3bm_meteo.php?loc=6&tm=lsneve&c1=ffffff&b1=93c1db&b2=3a8ebd" width="190" height="235" frameborder="0"></iframe></div>
+<div id='slidingDiv13' style="display: none;"><iframe src="http://portali.3bmeteo.com//3bm_meteo.php?loc=6&tm=lsneve&c1=ffffff&b1=93c1db&b2=3a8ebd" width="190" height="235" frameborder="0"></iframe></div>
 <!-- 1 giorni --> 
 <!-- 7 giorni --> 
 <p><b>7 giorni</b>: Bollettino neve a 7 giorni nella tua localit&agrave, in formato esteso. <b>SC = [trebi-g2]</b>. <a onclick="ShowHide(14); return false;" href="#">Mostra/Nascondi</a></p>
-<div id='slidingDiv14' style="display: none;"><iframe src="http://www.3bmeteo.com//3bm_meteo.php?loc=6&tm=lneve&c1=FFFFFF&c3=93C1DB&b1=93C1DB&b2=3A8EBD" width="490" height="425" frameborder="0"></iframe></div>
+<div id='slidingDiv14' style="display: none;"><iframe src="http://portali.3bmeteo.com//3bm_meteo.php?loc=6&tm=lneve&c1=FFFFFF&c3=93C1DB&b1=93C1DB&b2=3A8EBD" width="490" height="425" frameborder="0"></iframe></div>
 <!-- 7 giorni --> 
 </div>
 </div> 
@@ -837,7 +837,7 @@ $("#slidingDiv"+valore).animate({"height": "toggle"}, { duration: 1000 });
 		 *
 		 * Uses the WP API to get the meta data from the top of this file (comment)
 		 *
-		 * @return string The version like 1.0.2
+		 * @return string The version like 1.0.6
 		 */
 		function GetVersion() {
 			if(!function_exists('get_plugin_data')) {
