@@ -2,7 +2,7 @@
 Contributors: andreapernici
 Tags: meteo, meteo italia, previsioni del tempo, meteo sul sito, previsioni meteo, 3b meteo
 Requires at least: 2.6
-Tested up to: 3.9
+Tested up to: 4.0
 stable tag: 1.0.7
 
 Permette di aggiungere i widget meteo per le previsioni del tempo sul tuo sito in vari formati.
