@@ -3,7 +3,7 @@ Contributors: andreapernici
 Tags: meteo, meteo italia, previsioni del tempo, meteo sul sito, previsioni meteo, 3b meteo
 Requires at least: 2.6
 Tested up to: 4.0
-stable tag: 1.0.7
+stable tag: 1.0.8
 
 Permette di aggiungere i widget meteo per le previsioni del tempo sul tuo sito in vari formati.
 
@@ -17,6 +17,9 @@ Maggiori informazioni:
 * Dati [meteo italia](http://www.3bmeteo.com/) forniti da 3b Meteo.
 
 **Changelog**
+
+= 1.0.8 =
+* WP 4 compatibility check
 
 = 1.0.7 =
 * Corretto piccolo bug iframe
