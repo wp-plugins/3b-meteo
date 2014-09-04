@@ -3,7 +3,7 @@
 	Plugin Name: 3B Meteo
 	Plugin URI: http://andreapernici.com/wordpress/3bmeteo/
 	Description: Allow You to add Meteo Widget to Your website.
-	Version: 1.0.7
+	Version: 1.0.8
 	Author: Andrea Pernici
 	Author URI: http://www.andreapernici.com/
 	
@@ -28,7 +28,7 @@ define('TREBIMETEO_URL', plugin_dir_url(__FILE__));
 define('TREBIMETEO_PATH', plugin_dir_path(__FILE__));
 define('TREBIMETEO_BASENAME', plugin_basename( __FILE__ ));
 
-define('TREBIMETEO_VERSION', '1.0.7');
+define('TREBIMETEO_VERSION', '1.0.8');
 
 function trebi_getUrlRegione($idreg)
 {
@@ -837,7 +837,7 @@ $("#slidingDiv"+valore).animate({"height": "toggle"}, { duration: 1000 });
 		 *
 		 * Uses the WP API to get the meta data from the top of this file (comment)
 		 *
-		 * @return string The version like 1.0.7
+		 * @return string The version like 1.0.8
 		 */
 		function GetVersion() {
 			if(!function_exists('get_plugin_data')) {
